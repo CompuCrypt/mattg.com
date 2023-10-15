@@ -153,4 +153,6 @@ grid-template-columns: none;
     width: 100%;
   }
 
- 
+ .header a {
+  font-size: 28px;
+ }
