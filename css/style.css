@@ -156,3 +156,8 @@ grid-template-columns: none;
  .header a {
   font-size: 28px;
  }
+
+ .project_grid p {
+  font-size: 20px;
+ }
+
