@@ -1,23 +1,74 @@
 .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    /* background-color: #2196F3; */
-    padding: 10px;
-  }
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* background-color: #2196F3; */
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+  .map_pics {
+      width: 400px;
   }
 
-    .map_pics {
-        width: 400px;
-    }
+  p {
+      font-size: 40px;
+      padding-top: 30px;
+      color: #7D7C7C;
+  }
 
-    p {
-        font-size: 40px;
-        padding-top: 30px;
-        color: #7D7C7C;
-    }
+  .slider {
+    position: relative;
+    width: 1000px;
+    height: 700px;
+  }
+
+  .slider img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 1000px;
+    max-height: 700px;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+  }
+
+  .slider img.active {
+    opacity: 1;
+  }
+
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 3px solid #fff;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: #DFFFD8;
+    color: #040D12;
+    font-size: 32px;
+    font-stretch: condensed;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+  }
+
+  button:hover {
+    background-color: #040D12;
+    color: #DFFFD8;
+  }
+
+  button#prev {
+    left: -35px;
+    padding: 7px 17px 7px 15px;
+  }
+  
+  button#next {
+    right: -35px;
+    padding: 7px 15px 7px 17px;
+  }
