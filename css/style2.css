@@ -72,3 +72,23 @@
     right: -35px;
     padding: 7px 15px 7px 17px;
   }
+
+  .item {
+    opacity: 0;
+    transition: opacity 0.5s, transform 0.5s;
+  }
+
+  .left {
+    transform-origin: left center;
+    transform: translateX(-50%);
+  }
+  
+  .right {
+    transform-origin: right center;
+    transform: translateX(50%);
+  }
+  
+  .slide-in {
+    opacity: 1 !important;
+    transform: translateX(0);
+  }
