@@ -1,5 +1,4 @@
-.header{
-  
+.header{  
     background-image: url('../media/sand.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -89,13 +88,24 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 color: #022C43;
 }
 
-#mail{
-margin-left: 40%;
+#form{
+margin-left: 20px;
+margin-right: 20px;
 border: solid;
 }
 
+.form_contents {
+  text-align: center;
+}
+
 .button{
-background-color: #B9F3FC;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: #B9F3FC;
 }
 
 .button:hover{
@@ -154,10 +164,10 @@ grid-template-columns: none;
   }
 
  .header a {
-  font-size: 28px;
+  font-size: 20px;
  }
 
  .project_grid p {
-  font-size: 20px;
+  font-size: 21px;
  }
 
